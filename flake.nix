@@ -1,5 +1,5 @@
 {
-  description = "Moi huini"
+  description = "Moi huini";
 
   inputs = {
     master.url = "github:nixos/nixpkgs/master";
