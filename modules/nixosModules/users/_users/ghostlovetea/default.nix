@@ -10,7 +10,14 @@ lib.mkIf (builtins.elem "ghostlovetea" config.myConfig.activeUsers) {
 
       packages = with pkgs; [
         git
-        fastfecth
+        fastfetch
+
+        vesktop
+        librewolf
+        microsoft-edge
+        nftables
+        throne
+        vscode
       ];
     };
 }

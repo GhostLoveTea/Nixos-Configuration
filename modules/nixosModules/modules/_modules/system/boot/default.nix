@@ -42,7 +42,7 @@ in {
     in mkIf cfg.enable {
         boot.loader.grub = {
             enable = true;
-            device = mkDefault config.myConfig.targetDisk;
+            # device = mkDefault config.myConfig.targetDisk;
             efiSupport = cfg.efiSupport;
             efiInstallAsRemovable = cfg.efiInstallAsRemovable;
             useOSProber = mkDefault true;
