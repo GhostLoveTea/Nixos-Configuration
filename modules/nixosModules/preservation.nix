@@ -10,6 +10,7 @@
         directories = [
           "/var/log"
           "/var/lib/nixos"
+          "/home"
         ];
         files = [
           { file = "/etc/machine-id"; inInitrd = true; }

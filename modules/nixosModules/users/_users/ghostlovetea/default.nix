@@ -14,6 +14,8 @@ lib.mkIf (builtins.elem "ghostlovetea" config.myConfig.activeUsers) {
         fastfetch
         nftables
 
+        rofi
+
         vesktop
         librewolf
         microsoft-edge
