@@ -9,13 +9,14 @@ lib.mkIf (builtins.elem "ghostlovetea" config.myConfig.activeUsers) {
       extraGroups = [ "wheel" "networkmanager" ];
 
       packages = with pkgs; [
+        foot
         git
         fastfetch
+        nftables
 
         vesktop
         librewolf
         microsoft-edge
-        nftables
         throne
         vscode
       ];
