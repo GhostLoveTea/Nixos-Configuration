@@ -1,6 +1,7 @@
-{ config, pkgs, self, ... }:
+{ config, pkgs, inputs, self, ... }:
 
 {
+    imports = [ inputs.disko.nixosModules.disko ];
     disko.devices.nodev = {
         "/" = {
             fsType = "tmpfs";
